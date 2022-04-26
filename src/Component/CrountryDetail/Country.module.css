@@ -1,0 +1,110 @@
+.container {
+   height: 100vh;
+   background-image: url(../../extras/mapa-mundi.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#caja{
+    position: absolute;
+    border: 3px solid white;
+    border-radius: 20px;
+    width: 95%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.750);
+}
+
+.card .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0 0 30px;
+    position: relative;
+    bottom: -40px;
+
+}
+
+.info > h3 {
+    font-size: 20px;
+    text-align: start;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.card > h3, .activity > h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#bandera {
+    width: 230px;
+    margin: 0;
+    position: relative;
+    top: 20px;
+}
+
+.info span {
+    margin-left: 20px;
+}
+
+#caja button {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.500);
+    color: white;
+    cursor: pointer;
+}
+
+.activity {
+    width: 420px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.500);
+    color: white;
+}
+.activity .info h3 {
+    margin: 0;
+}
+
+.activity .info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.aux {
+    width: max-content;
+    height: max-content;
+    border: 1px solid white;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.750);
+}

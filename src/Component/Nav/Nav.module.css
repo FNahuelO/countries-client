@@ -1,0 +1,100 @@
+.conteiner {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    top: 110px;
+    height: 490px;
+    width: 200px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.150);
+}
+
+.orden {
+    color: white;
+    width: 190px;
+    height: 170px;
+    font-size: 20px;
+}
+
+.orden span {
+    border-bottom: 2px solid white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: default;
+    position: relative;
+    top: -15px;
+}
+
+.orden ul{
+    list-style: none;
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    padding: 0;
+}
+
+.orden ul li {
+    margin: 3px 0;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.500);
+    padding: 3px 0;
+}
+
+.filtro {
+    color: white;
+    text-align: center;
+    width: 190px;
+    height: 220px;
+
+}
+.filtro span {
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid white;
+    cursor: default;
+}
+
+.filtro ul{
+    list-style: none;
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    padding: 0;
+}
+
+.filtro ul li {
+    margin: 3px 0;
+    padding: 3px 0;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+#list ul {
+ margin: 3px 0 ;
+}
+
+.actividades  {
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 3px 0;
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.500);
+    width: 190px;
+    height: 29px;
+    text-align: center;
+
+}
+
+.actividades option:first-child {
+    display: none;
+}
+
+ @media screen and (max-width: 500px){
+    .conteiner {
+        display: none;
+    }
+}

@@ -1,0 +1,38 @@
+.pagination{
+    /* position: absolute;
+    bottom: 0; */
+    left: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagLink{
+    width: 34px;
+	height: 32px;
+	border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.150);
+	cursor:pointer;
+	color: white;
+	font-size:18px;
+	font-weight: 400;
+    text-align:center;
+	text-decoration:none;
+    margin-left: 5px;
+	padding: 0;
+	border: 1px solid #dfdfdf;
+}
+
+
+.pagination p {
+    margin: 0;
+}
+
+.pagLink:hover {
+    background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	color: rgb(0, 0, 0);
+    transform: scale(1.2);
+}
+
+.pagLink:active{
+    color: rgb(0, 255, 128);
+}
